@@ -173,5 +173,59 @@ link[rel="icon"] {
     justify-content: center;
     margin-top: 40px;
   }
+  .hero-text {
+    margin-top: 60px;
+    padding: 0 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text h2 {
+    font-size: 18px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .portfolio-section {
+    padding: 40px 20px;
+  }
+
+  .portfolio-images {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .portfolio-images img {
+    width: 90%;
+    height: auto;
+  }
+
+  .arrow {
+    display: none; /* Optional: hide the arrow on mobile */
+  }
+
+  .links-section {
+    position: static;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  .links-images {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .links-images img {
+    width: 36px;
+    height: 36px;
+  }
+
 }
+
+
 
