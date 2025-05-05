@@ -142,61 +142,61 @@ link[rel="icon"] {
   height: 64px; /* Set the size you want */
 }
 
-@media (max-width: 768px) {
+@@media (max-width: 768px) {
   body {
-    font-size: 18px;
-    padding: 10px;
+    font-size: 14px;
+    padding: 0 10px;
   }
 
   .navbar {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    gap: 10px;
     padding: 10px;
   }
 
   .nav-buttons {
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    gap: 8px;
+    margin-left: 0;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .hero-text {
+    margin-top: 40px;
+    text-align: center;
+    padding: 0 10px;
   }
 
   .hero-text h1 {
-    font-size: 32px;
+    font-size: 24px;
+  }
+
+  .hero-text h2 {
+    font-size: 16px;
+  }
+
+  .hero-text p {
+    font-size: 12px;
+  }
+
+  .portfolio-section {
+    padding: 30px 10px;
   }
 
   .portfolio-images {
     flex-direction: column;
     align-items: center;
-  }
-
-  .links-section {
-    position: static;
-    justify-content: center;
-    margin-top: 40px;
-  }
-  .hero-text {
-    margin-top: 60px;
-    padding: 0 20px;
-  }
-
-  .hero-text h1 {
-    font-size: 28px;
-  }
-
-  .hero-text h2 {
-    font-size: 18px;
-  }
-
-  .hero-text p {
-    font-size: 14px;
-  }
-
-  .portfolio-section {
-    padding: 40px 20px;
-  }
-
-  .portfolio-images {
-    flex-direction: column;
-    gap: 20px;
+    gap: 15px;
   }
 
   .portfolio-images img {
@@ -205,26 +205,31 @@ link[rel="icon"] {
   }
 
   .arrow {
-    display: none; /* Optional: hide the arrow on mobile */
+    display: none;
   }
 
   .links-section {
     position: static;
+    display: flex;
     justify-content: center;
     margin-top: 30px;
-    padding: 0;
+    padding: 10px 0;
   }
 
   .links-images {
-    justify-content: center;
-    gap: 20px;
+    gap: 15px;
   }
 
   .links-images img {
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
   }
 
+  .home-button {
+    font-size: 12px;
+    padding: 8px 16px;
+    margin-top: 20px;
+  }
 }
 
 
